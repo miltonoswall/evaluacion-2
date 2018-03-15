@@ -1,0 +1,127 @@
+body{
+	background: #02010a;
+}
+
+header {
+	margin-top: 1vw;
+	padding: 1vw;
+	border-radius: 1vh;
+	background-color: #5b7989;
+}
+
+
+header h1 {
+	padding-left: 5%;
+	padding-top: 2%;
+	font-family: dancingscript;
+	font-size: 1.5em;
+	text-align: left;
+	height: 50px;
+	color:white;
+	text-shadow: 2px #02010a;
+}
+
+header nav{
+	float: right;
+}
+
+nav ul {
+		margin: -65px;
+		list-style: none;
+		padding-right: 60px;
+		
+	}
+nav ul li {
+			display: inline-block;
+			line-height: 50px;
+		
+		}
+nav ul li a {
+			display: block;
+			padding: 10px;
+			color:white;
+			text-decoration: none;
+			}
+			
+nav ul li a:hover {
+					background: #0b76a6;
+			}
+
+.contenedor {
+	width: 98%;
+	float: left;
+	clear: both;
+	border-radius: 0 0 10px 10px;
+	padding: 1vw;
+	background:  #82c3a6;
+
+}
+
+.contenedor figure img{
+	width: 350px;
+	float: left;
+	padding: 2vw;
+}
+
+.imagen1 {
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+
+}
+
+.imagen2{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.imagen3{
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+
+.imagen4{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.imagen6{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+
+footer {
+	width: 98%;
+	float: left;
+	clear: both;
+	border-radius: 0 0 10px 10px;
+	padding: 1vw;
+	background: #C6d5c5;
+}
+
+footer section {
+	width: 290px;
+	float: left;
+	padding: 1vw;
+}
+
+footer #contactos {
+	font-family: helvetica;
+
+}
+
+footer #terminos{
+	font-family: helvetica;
+}
+
+footer #contactos{
+	font-family: helvetica;
+}
+
+footer #derechos{
+	font-family: helvetica;
+}
+footer #sociales >div a{
+
+	text:inline-block;
+}
+}

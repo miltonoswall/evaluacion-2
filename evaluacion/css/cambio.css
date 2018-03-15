@@ -1,0 +1,165 @@
+body{
+	background: #02010a;
+}
+
+header {
+	margin-top: 1vw;
+	padding: 1vw;
+	border-radius: 1vh;
+	background-color: #5b7989;
+}
+
+
+header h1 {
+	padding-left: 5%;
+	padding-top: 2%;
+	font-family: dancingscript;
+	font-size: 1.5em;
+	text-align: left;
+	height: 50px;
+	color:white;
+	text-shadow: 2px #02010a;
+}
+
+header nav{
+	float: right;
+}
+
+nav ul {
+		margin: -65px;
+		list-style: none;
+		padding-right: 60px;
+		
+	}
+nav ul li {
+			display: inline-block;
+			line-height: 50px;
+		
+		}
+nav ul li a {
+			display: block;
+			padding: 10px;
+			color:white;
+			text-decoration: none;
+			}
+			
+nav ul li a:hover {
+					background: #0b76a6;
+			}
+
+
+section figure{
+	background: #82c3a6;
+	width: 100%
+	margin: auto;
+}
+
+#imagen img {
+	width: 90%;
+	display: block;
+	margin: auto;
+	padding: 2vw;
+
+}
+
+img{
+	filter: drop-shadowo(20px 2px 2px #02010a);
+	box-shadow: 2px 2px 0px #00000;
+}
+
+.contenido{
+	display: flex;
+	background: #d5c75f;
+	width: 100%;
+
+
+}
+
+.contenido figure img{
+	width: 550px;
+	float: left;
+	padding: 2vw;
+	margin: auto;
+	
+}
+
+
+#retrato img{
+	transition-property: transform translate(20px, -5px);
+	transition-property: box-shadow: 2px #02010a;
+	transition-duration: 2s;
+	width: 100%;
+	
+}
+
+#retrato img:hover{
+	transform: translate(20px, -5px);
+	
+}
+
+
+#paisaje img{
+	transition-property: transform rotate(10deg);
+	transition-property: box-shadow: 2px #02010a;
+	transition-duration: 2s;
+	width: 100%
+}
+
+#paisaje img:hover{
+	transform: rotate(10deg);
+	
+}
+
+div h2{
+	text-align: center;
+}
+
+@media  all and (max-width: 500%) {
+	.paisaje {  
+		width: 100%;
+		order:1;
+	}
+	.retrato {
+		width: 100%;
+		order:2;
+	}
+
+}
+
+
+footer {
+	width: 98%;
+	float: left;
+	clear: both;
+	border-radius: 0 0 10px 10px;
+	padding: 1vw;
+	background: #C6d5c5;
+}
+
+footer section {
+	width: 290px;
+	float: left;
+	padding: 1vw;
+}
+
+footer #contactos {
+	font-family: Dancing Script;
+
+}
+
+footer #terminos{
+	font-family: Dancing Script;
+}
+
+footer #contactos{
+	font-family: Dancing Script;
+}
+
+footer #derechos{
+	font-family: Dancing Script;
+}
+footer #sociales >div a{
+
+	text:inline-block;
+}
+}
